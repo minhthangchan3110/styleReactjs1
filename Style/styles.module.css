@@ -1,0 +1,29 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    height: 100%;
+  }
+  
+  .sidebar {
+    
+    background-color: red;
+  width: 30%;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  }
+  
+  .content {
+    
+        background-color: blue;
+        width: 70%;
+        height: 100vh;
+        position: fixed;
+        top: 0;
+        left: 30%;
+      
+    
+  }
